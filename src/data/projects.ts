@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     category: "JavaScript",
     image: "/images/codepulse.svg",
     github: "https://github.com/shubhamrai9122-creator/github_profile_finder",
-    demo: "#"
+    demo: "/demos/codepulse/"
   },
   {
     id: "gradia",
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     category: "Frontend",
     image: "/images/gradia.svg",
     github: "https://github.com/shubhamrai9122-creator/webDaily",
-    demo: "#"
+    demo: "/demos/gradia/"
   },
   {
     id: "weather-app",
@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     category: "Frontend",
     image: "/images/weather.svg",
     github: "https://github.com/shubhamrai9122-creator/weather_app",
-    demo: "#"
+    demo: "/demos/weather/"
   },
   {
     id: "crud-backend",
@@ -48,6 +48,6 @@ export const PROJECTS: Project[] = [
     category: "Backend",
     image: "/images/crud.svg",
     github: "https://github.com/shubhamrai9122-creator/hypercode",
-    demo: "#"
+    demo: "/demos/crud/"
   }
 ];
