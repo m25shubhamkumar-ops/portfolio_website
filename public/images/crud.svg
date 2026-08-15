@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='720' viewBox='0 0 1200 720'>
+  <rect width='100%' height='100%' fill='#070A12'/>
+  <rect x='80' y='80' width='1040' height='560' rx='18' fill='rgba(255,255,255,0.02)' stroke='rgba(110,231,243,0.06)' />
+  <g transform='translate(140,140)'>
+    <text x='0' y='40' font-family='Inter, sans-serif' font-size='28' fill='white' font-weight='600'>CRUD — Backend Module</text>
+    <text x='0' y='76' font-family='Inter, sans-serif' font-size='14' fill='#9aa6b2'>Express + MongoDB — RESTful endpoints</text>
+    <rect x='0' y='100' width='420' height='220' rx='10' fill='rgba(255,255,255,0.02)' />
+    <text x='16' y='150' font-family='Roboto Mono, monospace' font-size='14' fill='#6ee7f3'>POST /items</text>
+    <text x='16' y='176' font-family='Roboto Mono, monospace' font-size='14' fill='#6ee7f3'>GET /items</text>
+    <text x='16' y='202' font-family='Roboto Mono, monospace' font-size='14' fill='#6ee7f3'>PUT /items/:id</text>
+  </g>
+</svg>

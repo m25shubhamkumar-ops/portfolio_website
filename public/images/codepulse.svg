@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='720' viewBox='0 0 1200 720'>
+  <defs>
+    <linearGradient id='g1' x1='0' x2='1'>
+      <stop offset='0' stop-color='#0ea5e9'/>
+      <stop offset='1' stop-color='#8b5cf6' />
+    </linearGradient>
+    <filter id='blur' x='-20%' y='-20%' width='140%' height='140%'>
+      <feGaussianBlur stdDeviation='20' />
+    </filter>
+  </defs>
+  <rect width='100%' height='100%' fill='#070A12'/>
+  <g opacity='0.18' filter='url(#blur)'>
+    <circle cx='220' cy='180' r='220' fill='url(#g1)' />
+    <circle cx='980' cy='540' r='260' fill='#0f1724' />
+  </g>
+  <rect x='80' y='80' width='1040' height='560' rx='18' fill='rgba(255,255,255,0.02)' stroke='rgba(110,231,243,0.06)' />
+  <g transform='translate(140,140)'>
+    <rect width='420' height='260' rx='10' fill='rgba(255,255,255,0.02)' stroke='rgba(255,255,255,0.03)' />
+    <text x='24' y='40' font-family='Inter, sans-serif' font-size='28' fill='white' font-weight='600'>CodePulse</text>
+    <text x='24' y='76' font-family='Inter, sans-serif' font-size='14' fill='#9aa6b2'>GitHub Live Search Dashboard — async REST integration</text>
+    <rect x='24' y='110' width='360' height='28' rx='6' fill='rgba(255,255,255,0.04)' />
+    <text x='36' y='130' font-family='Roboto Mono, monospace' font-size='12' fill='#6ee7f3'>HTML • CSS • JavaScript</text>
+  </g>
+  <g transform='translate(600,140)'>
+    <rect width='420' height='260' rx='10' fill='rgba(255,255,255,0.02)' stroke='rgba(255,255,255,0.03)' />
+    <text x='24' y='40' font-family='Inter, sans-serif' font-size='20' fill='white' font-weight='600'>Live repo search</text>
+    <text x='24' y='76' font-family='Inter, sans-serif' font-size='12' fill='#9aa6b2'>As-you-type results • Repository cards • Responsive</text>
+  </g>
+</svg>
